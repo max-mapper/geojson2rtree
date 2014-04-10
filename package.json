@@ -1,0 +1,32 @@
+{
+  "name": "geojson2rtree",
+  "version": "0.0.1",
+  "bin": {
+    "geojson2rtree": "cli.js"
+  },
+  "description": "generate a static rtree (using terraformer) from a set of geojson features",
+  "main": "index.js",
+  "author": "max ogden",
+  "license": "BSD",
+  "dependencies": {
+    "JSONStream": "^0.8.0",
+    "stream-combiner": "0.0.4",
+    "terraformer": "^1.0.3",
+    "terraformer-geostore": "^1.0.3",
+    "terraformer-geostore-memory": "^1.0.0",
+    "terraformer-rtree": "^1.0.0",
+    "through2": "^0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/geojson2rtree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/geojson2rtree/issues"
+  },
+  "homepage": "https://github.com/maxogden/geojson2rtree"
+}
